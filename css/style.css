@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+.page {
+    background-color: white;
+    background-repeat: no-repeat center cover;
+}
+
+.table-heading {
+    font-size: 20px;
+    font-weight: 10px;
+    text-decoration: underline 2px;
+    background-color: white;
+}
+
+body {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: darkslategrey;
+    border-radius: 5px;
+    width: 100%;
+}
+
+tr {
+    margin: 0;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: darkslategrey;
+}
+
+th {
+    margin: 0;
+    border-style: solid;
+    border-color: darkslategrey;
+}
+
+td {
+    margin: 0;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: darkslategrey;
+}
+
+ul {
+    list-style: none;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: darkslategrey;
+    margin: 3px;
+}
+
+.under-21-males {
+    background-color: grey;
+}
+
+.over-21-males {
+    background-color: black;
+    color: white;
+}
+
+.under-21-females {
+    background-color: red;
+}
+
+.over-21-females {
+    background-color: pink;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding: 10px 30px;
+    background-repeat: no-repeat;
+    background-image: url(/img/icons8-github.gif);
+    background-size: 20px;
+    background-position: left center;
+}
+
+.unordered-list {
+    text-align: left;
+}
+
+.name, .surname, .age, .gender {
+    text-align: center;
+}
